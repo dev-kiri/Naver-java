@@ -148,7 +148,7 @@ public class Naver {
             this.cookies.put("NID_SES", auth.cookie("NID_SES"));
             timer.cancel();
         } else {
-        	if (!response.hasCookie("NID_AUT")) throw new IllegalArgumentException("Invalid ID or PASSWORD.");
+            if (!response.hasCookie("NID_AUT")) throw new IllegalArgumentException("Invalid ID or PASSWORD.");
             this.cookies.put("nid_inf", response.cookie("nid_inf"));
             this.cookies.put("NID_AUT", response.cookie("NID_AUT"));
             this.cookies.put("NID_JKL", response.cookie("NID_JKL"));
