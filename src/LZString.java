@@ -37,7 +37,7 @@ public class LZString {
 			public char doFunc(int a) {
 				return keyStrBase64[a];
 			}
-		});
+		}); 
 		switch (res.length() % 4) { // To produce valid Base64
 		default: // When could this happen ?
 		case 0:
