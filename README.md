@@ -26,6 +26,6 @@ public class Main {
 |Parameter|Detail|Type|Required|
 |----|----|----|----|
 |```nvlong```|Login continue|```Boolean```|Y|
-## Licese
+## License
 Naver-java is following [GPL 3.0](https://github.com/dev-kiri/Naver-java/blob/main/LICENSE) License.
 
